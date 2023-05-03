@@ -1,0 +1,87 @@
+.weekly-schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .weekly-schedule h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .weekly-schedule .week-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .weekly-schedule .week-header button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .weekly-schedule .week-header button:hover {
+    background-color: #f2f2f2;
+    border-color: #999;
+  }
+  
+  .weekly-schedule .week-header span {
+    font-weight: bold;
+  }
+  
+  .weekly-schedule select {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .weekly-schedule label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .weekly-schedule input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .weekly-schedule .working-hours {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+  }
+  
+  .weekly-schedule .working-hours div {
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  
+  .weekly-schedule .working-hours div:last-child {
+    margin-bottom: 15px;
+  }
+  
+  .weekly-schedule .working-hours span {
+    font-weight: bold;
+  }
+  
+  
+  
